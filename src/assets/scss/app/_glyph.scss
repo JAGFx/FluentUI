@@ -1,0 +1,119 @@
+@font-face {
+	font-family: $font-glyph-name;
+	src:         url("../fonts/MWFMDL2.ttf") format("truetype"),
+				 url("../fonts/MWFMDL2.woff") format("woff"),
+				 url("../fonts/MWFMDL2.svg#mwfglyphregular") format("svg");
+	font-weight: normal;
+	font-style:  normal;
+}
+
+.c-glyph {
+	font-family: MWFGlyph;
+	
+	&:before {
+		padding: 0 .625rem;
+	}
+	
+	/* A */
+	&.glyph-arrow-out:before { content: $glyph-arrow-out; }
+	&.glyph-arrow-left:before { content: $glyph-arrow-left; }
+	&.glyph-arrow-right:before { content: $glyph-arrow-right; }
+	&.glyph-arrow-top-left:before { content: $glyph-arrow-top-left; }
+	&.glyph-arrow-top-right:before { content: $glyph-arrow-top-right; }
+	
+	/* B */
+	&.glyph-backward:before { content: $glyph-backward; }
+	
+	/* C */
+	&.glyph-calendar:before { content: $glyph-calendar; }
+	&.glyph-camera:before { content: $glyph-camera; }
+	&.glyph-cancel:before { content: $glyph-cancel; }
+	&.glyph-communications:before { content: $glyph-communications; }
+	&.glyph-create:before { content: $glyph-create; }
+	&.glyph-checkbox-checked:before { content: $glyph-checkbox-checked; }
+	&.glyph-checked:before { content: $glyph-checked; }
+	&.glyph-chevron-down:before { content: $glyph-chevron-down; }
+	&.glyph-chevron-left:before { content: $glyph-chevron-left; }
+	&.glyph-chevron-right:before { content: $glyph-chevron-right; }
+	&.glyph-chevron-up:before { content: $glyph-chevron-up; }
+	
+	/* D */
+	&.glyph-download:before { content: $glyph-download; }
+	
+	/* E */
+	&.glyph-edit:before { content: $glyph-edit; }
+	&.glyph-envelop:before { content: $glyph-envelop; }
+	&.glyph-exchange:before { content: $glyph-exchange; }
+	&.glyph-exclamation:before { content: $glyph-exclamation; }
+	&.glyph-expand:before { content: $glyph-expand; }
+	&.glyph-eye:before { content: $glyph-eye; }
+	
+	/* F */
+	&.glyph-file:before { content: $glyph-file; }
+	&.glyph-files:before { content: $glyph-files; }
+	&.glyph-flag:before { content: $glyph-flag; }
+	&.glyph-forward:before { content: $glyph-forward; }
+	&.glyph-funnel:before { content: $glyph-funnel; }
+	
+	/* G */
+	&.glyph-global-nav-button:before { content: $glyph-global-nav-button; }
+	
+	/* H */
+	&.glyph-hearth:before { content: $glyph-hearth; }
+	
+	/* I */
+	&.glyph-info:before { content: $glyph-info; }
+	
+	/* L */
+	&.glyph-list:before { content: $glyph-list; }
+	
+	/* M */
+	&.glyph-microphone:before { content: $glyph-microphone; }
+	&.glyph-minus:before { content: $glyph-minus; }
+	&.glyph-more:before { content: $glyph-more; }
+	
+	/* P */
+	&.glyph-people:before { content: $glyph-people; }
+	&.glyph-person:before { content: $glyph-person; }
+	&.glyph-phone:before { content: $glyph-phone; }
+	&.glyph-play:before { content: $glyph-play; }
+	
+	/* R */
+	&.glyph-random:before { content: $glyph-random; }
+	&.glyph-reduce:before { content: $glyph-reduce; }
+	&.glyph-retry:before { content: $glyph-retry; }
+	
+	/* S */
+	&.glyph-saying:before { content: $glyph-saying; }
+	&.glyph-settings:before { content: $glyph-settings; }
+	&.glyph-search-left:before { content: $glyph-search-left; }
+	&.glyph-search-right:before { content: $glyph-search-right; }
+	&.glyph-shopping-cart:before { content: $glyph-shopping-cart; }
+	&.glyph-size-down:before { content: $glyph-size-down; }
+	&.glyph-size-up:before { content: $glyph-size-up; }
+	&.glyph-square:before { content: $glyph-square; }
+	&.glyph-sound-full:before { content: $glyph-sound-full; }
+	&.glyph-sound-mute:before { content: $glyph-sound-mute; }
+	&.glyph-star-full:before { content: $glyph-star-full; }
+	&.glyph-star-full-o:before { content: $glyph-star-full-o; }
+	&.glyph-star-left-half:before { content: $glyph-star-left-half; }
+	&.glyph-star-right-half:before { content: $glyph-star-right-half; }
+	&.glyph-success-o:before { content: $glyph-success-o; }
+	&.glyph-sync:before { content: $glyph-sync; }
+	
+	/* T */
+	&.glyph-trash:before { content: $glyph-trash; }
+	
+	/* V */
+	&.glyph-video:before { content: $glyph-video; }
+	
+	/* W */
+	&.glyph-warn:before { content: $glyph-warn; }
+	&.glyph-warn-o:before { content: $glyph-warn-o; }
+	&.glyph-world:before { content: $glyph-world; }
+	&.glyph-writing:before { content: $glyph-writing; }
+	
+	/* Z */
+	&.glyph-zoom-less:before { content: $glyph-zoom-less; }
+}
+

@@ -1,0 +1,128 @@
+/* FONT Police */
+$font-glyph-name: "MWFGlyph";
+$font-regular: "Segoe UI";
+$font-light: "Segoe UI Light";
+
+$default-font-size: 1rem;
+$h1-size: $default-font-size * 3.875;
+$h2-size: $default-font-size * 2.875;
+$h3-size: $default-font-size * 2.125;
+$h4-size: $default-font-size * 1.5;
+$h5-size: $default-font-size * 1.25;
+$h6-size: $default-font-size * 1.125;
+
+/* COLORS */
+$dark: #000;
+$gray-dark-1: #505050;
+$gray-dark-2: #737373;
+$gray-dark-3: #D2D2D2;
+$gray-dark-4: #E6E6E6;
+$light: #FFF;
+
+$brand: #0078D7;
+
+/* FONT CODE */
+/* A */
+$glyph-arrow-out: "\E72D";
+$glyph-arrow-left: "\E0D5";
+$glyph-arrow-right: "\E0AE";
+$glyph-arrow-top-left: "\EA4F";
+$glyph-arrow-top-right: "\E8AD";
+
+/* B */
+$glyph-backward: "\E892";
+
+/* C */
+$glyph-calendar: "\E787";
+$glyph-camera: "\E722";
+$glyph-cancel: "\E711";
+$glyph-communications: "\E8F2";
+$glyph-create: "\E710";
+$glyph-checkbox-checked: "\E73A";
+$glyph-checked: "\E73E";
+$glyph-chevron-down: "\E70D";
+$glyph-chevron-left: "\E76B";
+$glyph-chevron-right: "\E76C";
+$glyph-chevron-up: "\E70E";
+
+/* D */
+$glyph-download: "\E896";
+
+/* E */
+$glyph-edit: "\E70F";
+$glyph-envelop: "\E715";
+$glyph-exchange: "\E8CB";
+$glyph-exclamation: "\E8C9";
+$glyph-expand: "\E740";
+$glyph-eye: "\E890";
+
+/* F */
+$glyph-file: "\E7C3";
+$glyph-files: "\E8C8";
+$glyph-flag: "\E7C1";
+$glyph-forward: "\E893";
+$glyph-funnel: "\E71C";
+
+/* G */
+$glyph-global-nav-button: "\E700";
+
+/* H */
+$glyph-hearth: "\EB52";
+
+/* I */
+$glyph-info: "\E946";
+
+/* L */
+$glyph-list: "\E8FD";
+
+/* M */
+$glyph-microphone: "\E720";
+$glyph-minus: "\E738";
+$glyph-more: "\E712";
+
+/* P */
+$glyph-people: "\E716";
+$glyph-person: "\E77B";
+$glyph-phone: "\E717";
+$glyph-play: "\E768";
+
+/* R */
+$glyph-random: "\E8B1";
+$glyph-reduce: "\E73F";
+$glyph-retry: "\E72C";
+
+/* S */
+$glyph-saying: "\ED15";
+
+$glyph-settings: "\E713";
+$glyph-search-left: "\E71E";
+$glyph-search-right: "\E721";
+$glyph-shopping-cart: "\E7BF";
+$glyph-size-down: "\E8E7";
+
+$glyph-size-up: "\E8E8";
+$glyph-square: "\E73C";
+$glyph-sound-full: "\E767";
+$glyph-sound-mute: "\E74F";
+$glyph-star-full: "\E735";
+
+$glyph-star-full-o: "\E734";
+$glyph-star-left-half: "\E7C6";
+$glyph-star-right-half: "\E7C7";
+$glyph-success-o: "\E930";
+$glyph-sync: "\E895";
+
+/* T */
+$glyph-trash: "\E74D";
+
+/* V */
+$glyph-video: "\E786";
+
+/* W */
+$glyph-warn: "\E814";
+$glyph-warn-o: "\E7BA";
+$glyph-world: "\E909";
+$glyph-writing: "\ED1E";
+
+/* Z */
+$glyph-zoom-less: "\E71F";

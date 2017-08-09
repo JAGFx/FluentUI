@@ -1,0 +1,10 @@
+@import "bootstrap";
+@import "app/variables";
+@import "app/glyph";
+@import "app/baseApp";
+@import "app/button";
+
+html {
+	font-family: "Segoe UI";
+	font-size:   $default-font-size;
+}

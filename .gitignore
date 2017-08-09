@@ -1,0 +1,4 @@
+.idea/
+/node_modules/
+src/assets/scss/.sass-cache/
+/src/assets/css/

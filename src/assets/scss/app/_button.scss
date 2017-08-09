@@ -1,0 +1,24 @@
+.btn {
+	min-width: 7.5rem;
+	
+	&.btn-fluent {
+		background:     transparent;
+		border:         0;
+		color:          $brand;
+		padding-bottom: $btn-padding-y + .1rem;
+		padding-left:   $btn-padding-x / 2;
+		
+		.c-glyph:before {
+			width:    1rem;
+			height:   1rem;
+			position: relative;
+			top:      2px;
+		}
+		
+		&:hover, &:focus {
+			background: $brand;
+			color:      $light;
+			cursor:     pointer;
+		}
+	}
+}

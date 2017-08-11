@@ -2,26 +2,34 @@
 $font-glyph-name: "MWFGlyph";
 $font-regular: "Segoe UI";
 $font-light: "Segoe UI Light";
+$font-family-base: $font-regular;
 
-$default-font-size: 1rem;
-$h1-size: $default-font-size * 3.875;
-$h2-size: $default-font-size * 2.875;
-$h3-size: $default-font-size * 2.125;
-$h4-size: $default-font-size * 1.5;
-$h5-size: $default-font-size * 1.25;
-$h6-size: $default-font-size * 1.125;
+$font-size-base: 1rem;
+$font-size-h1: $font-size-base * 3.875;
+$font-size-h2: $font-size-base * 2.875;
+$font-size-h2: $font-size-base * 2.125;
+$font-size-h4: $font-size-base * 1.5;
+$font-size-h5: $font-size-base * 1.25;
+$font-size-h6: $font-size-base * 1.125;
 
 /* COLORS */
-$dark: #000;
-$gray-dark-1: #505050;
-$gray-dark-2: #737373;
-$gray-dark-3: #D2D2D2;
-$gray-dark-4: #E6E6E6;
-$light: #FFF;
+$gray:                      #505050 !default;
+$gray-light:                #737373 !default;
+$gray-lighter:              #D2D2D2 !default;
+$gray-lightest:             #E6E6E6 !default;
+$brand-inverse: $gray;
 
-$brand: #0078D7;
+$blue: #0078D7;
 
-/* FONT CODE */
+/* DROPDOWN */
+$dropdown-item-padding-y: .5rem;
+
+
+
+/* GLYPH */
+$glyph-padding-x: 0;
+$glyph-padding-y: .625rem;
+
 /* A */
 $glyph-arrow-out: "\E72D";
 $glyph-arrow-left: "\E0D5";

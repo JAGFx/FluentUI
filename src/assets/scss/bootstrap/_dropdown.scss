@@ -1,0 +1,28 @@
+.dropdown-toggle {
+	&::after {
+		display:     inline !important;
+		border:      0 !important;
+		font-family: $font-glyph-name;
+		font-size:   $font-size-base * .6;
+		color:       $gray-light;
+		content:     $glyph-chevron-down !important;
+		position:    relative;
+		top:         0;
+		padding:     $glyph-padding-x 0 $glyph-padding-x $glyph-padding-y /2;
+	}
+	
+	&:hover:after {
+		color:         $black;
+		border-bottom: 0;
+	}
+}
+
+.dropdown-menu {
+}
+
+.dropdown-item {
+	&.dropdown-item-no-glyph { padding: $dropdown-item-padding-x !important; }
+	&:not(.dropdown-item-no-glyph) {
+		padding: ($dropdown-item-padding-x / 2) $dropdown-item-padding-x $dropdown-item-padding-x !important;
+	}
+}

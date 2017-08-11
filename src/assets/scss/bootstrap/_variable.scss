@@ -4,3 +4,13 @@ $border-radius-sm: $border-radius;
 
 $btn-padding-x: 1.5rem;
 $btn-padding-y: .5rem;
+
+$enable-rounded: false;
+
+$dropdown-bg: lighten($gray-lightest, 7%);
+$dropdown-margin-top: 0;
+$dropdown-padding-y: 0;
+$dropdown-item-padding-x: .6rem;
+$dropdown-min-width: 15rem;
+
+@import "../../../../node_modules/bootstrap/scss/variables";

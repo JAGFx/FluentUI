@@ -8,12 +8,11 @@
 		
 		<link rel="stylesheet" href="../src/assets/css/app.css">
 		<link rel="stylesheet" href="../src/assets/css/example.css">
-		<link rel="stylesheet" href="../node_modules/normalize.css/normalize.css">
 	</head>
 	<body>
 		<main class="container">
 			<section class="row mb-3">
-				<h2>Actions</h2>
+				<h2>Components</h2>
 				<hr class="c-divider">
 				<p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda atque aut
 					blanditiis corporis cum delectus dolore doloribus, earum eligendi, eos error esse eveniet explicabo
@@ -33,10 +32,10 @@
 							Action
 						</button>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-							<a class="dropdown-item" href="#"><span class="c-glyph glyph-edit"></span> Action</a>
-							<a class="dropdown-item dropdown-item-no-glyph" href="#">Another action</a>
+							<a class="dropdown-item c-glyph glyph-edit" href="#">Action</a>
+							<a class="dropdown-item c-glyph empty-glyph" href="#">Another action</a>
 							<div class="dropdown-divider"></div>
-							<a class="dropdown-item dropdown-item-no-glyph" href="#">Something else here</a>
+							<a class="dropdown-item c-glyph empty-glyph" href="#">Something else here</a>
 						</div>
 					</div>
 				</article>
@@ -44,7 +43,9 @@
 		</main>
 		
 		<script src="../node_modules/jquery/dist/jquery.js"></script>
-		<script src="../node_modules/tether/dist/js/tether.js"></script>
+		<!-- FIXME Import "Popper.js from node modules -->
+		<!--<script src="../node_modules/popper.js/dist/popper.min.js"></script>-->
+		<script src="../bower_components/popper.js/index.js"></script>
 		<script src="../node_modules/bootstrap/dist/js/bootstrap.js"></script>
 	</body>
 </html>

@@ -18,11 +18,13 @@
 }
 
 .dropdown-menu {
+	margin: 0 !important;
 }
 
 .dropdown-item {
-	&.dropdown-item-no-glyph { padding: $dropdown-item-padding-x !important; }
-	&:not(.dropdown-item-no-glyph) {
-		padding: ($dropdown-item-padding-x / 2) $dropdown-item-padding-x $dropdown-item-padding-x !important;
-	}
+	padding: ($dropdown-item-padding-x / 2) $dropdown-item-padding-x $dropdown-item-padding-x !important;
+}
+
+.dropdown-divider {
+	margin: 0 !important;
 }

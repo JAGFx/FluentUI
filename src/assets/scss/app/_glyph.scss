@@ -8,14 +8,21 @@
 }
 
 .c-glyph {
-	font-family: MWFGlyph;
+	padding-left: 0 !important;
 	
 	&:before {
-		width:    1rem;
-		height:   1rem;
-		position: relative;
-		top:      2px;
-		padding:  $glyph-padding-x $glyph-padding-y;
+		font-family: $font-glyph-name;
+		min-width:   1rem;
+		height:      1rem;
+		position:    relative;
+		top:         2px;
+		padding:     $glyph-padding-y $glyph-padding-x;
+	}
+	
+	&.empty-glyph:before {
+		content:       "";
+		padding-left:  ($glyph-padding-x * 1.8);
+		padding-right: ($glyph-padding-x * 1.8);
 	}
 	
 	/* A */

@@ -1,0 +1,26 @@
+.alert {
+	position: relative;
+	
+	.alert-heading { padding: 0 0 1rem 0; }
+	
+	&.alert-light {
+		color:        $black;
+		background:   $gray-lightest;
+		border-color: $gray-lighter;
+	}
+	
+	&.alert-dismissible .close {
+		padding:    0;
+		top:        0;
+		right:      0;
+		font-size:  $font-size-base;
+		text-align: right;
+	}
+	
+	&.c-glyph {
+		&:before { position: absolute; top: 1rem; }
+		> * {
+			padding-left: ($glyph-padding-x * 3.5);
+		}
+	}
+}

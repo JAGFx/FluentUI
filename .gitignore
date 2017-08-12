@@ -1,4 +1,8 @@
 .idea/
 node_modules/
+bower_components/
 .sass-cache/
 /src/assets/css/
+.htaccess
+index.php
+

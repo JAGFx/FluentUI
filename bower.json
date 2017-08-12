@@ -1,0 +1,27 @@
+{
+	"name" :         "fluent-ui",
+	"description" :  "It's UI for bootstrap 4 base on Fluent Design System",
+	"main" :         "index.js",
+	"authors" :      [
+		"Emmanuel SMITH <emmanuel.smith@jagfx.fr>"
+	],
+	"license" :      "GPL-3.0",
+	"keywords" :     [
+		"fluent",
+		"design",
+		"ui",
+		"framework",
+		"css"
+	],
+	"homepage" :     "https://github.com/JAGFx/FluentUI",
+	"ignore" :       [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies" : {
+		"popper.js" : "https://unpkg.com/popper.js"
+	}
+}

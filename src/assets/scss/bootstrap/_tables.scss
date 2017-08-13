@@ -1,0 +1,8 @@
+.table {
+	thead tr th {
+		border:        0;
+		border-bottom: $table-border-width solid $gray-lighter;
+		font-weight:   normal;
+		font-size:     .7rem;
+	}
+}
